@@ -4,5 +4,4 @@
 ## 2、项目涉及模块及技术栈概述：
 ### 2.1 图片上传与保存模块：前端【Vue + ElementUI】、后端【Spring + SpringBoot + MyBatis】
 ### 2.2 图片识别与标注模块：【Python + Yolov5】
-### 2.3 模块间交互方式：现阶段实现的方式是通过socket通讯：JavaWeb 和 Python启动socket服务，然后由JavaWeb模块通过socket通道传输图片；
-###     接着Python服务接收图片，识别并标注；最后将标注后的图片保存地址以及标注信息（标注框的左上角、右下角点坐标、置信度值）返回给JavaWeb模块。
+### 2.3 模块间交互方式：现阶段实现的方式是通过socket通讯：JavaWeb 和 Python启动socket服务，然后由JavaWeb模块通过socket通道传输图片；接着Python服务接收图片，识别并标注；最后将标注后的图片保存地址以及标注信息（标注框的左上角、右下角点坐标、置信度值）返回给JavaWeb模块。
